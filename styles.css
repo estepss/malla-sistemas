@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f1f9;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #e91e63;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #e91e63;
+    color: white;
+}
+
+td {
+    background-color: #f3f3f3;
+}
+
+input[type="checkbox"] {
+    margin: 10px;
+}
+
+.disabled {
+    background-color: #f0f0f0;
+    color: #ccc;
+}
+
+.enabled {
+    background-color: #e91e63;
+    color: white;
+}
+
+input[type="checkbox"]:disabled {
+    cursor: not-allowed;
+}
+
+input[type="checkbox"]:enabled {
+    cursor: pointer;
+}
