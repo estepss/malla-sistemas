@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malla Curricular - Ingeniería de Sistemas de Información</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Malla Curricular - Ingeniería de Sistemas de Información</h1>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Ciclo</th>
+                    <th>Curso</th>
+                    <th>Créditos</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- CICLO 1 -->
+                <tr>
+                    <td>1</td>
+                    <td>HU625 Comprensión y Producción de Lenguaje I</td>
+                    <td>4</td>
+                    <td><input type="checkbox" id="curso1" onclick="toggleCurso('curso2')" /> Completado</td>
+                </tr>
+                <tr id="curso2_row" class="disabled">
+                    <td>1</td>
+                    <td>HU612 Creatividad y Liderazgo (Ing)</td>
+                    <td>3</td>
+                    <td><input type="checkbox" id="curso2" disabled /> Completado</td>
+                </tr>
+                <tr id="curso3_row" class="disabled">
+                    <td>1</td>
+                    <td>HU548 Ética y Ciudadanía</td>
+                    <td>2</td>
+                    <td><input type="checkbox" id="curso3" disabled /> Completado</td>
+                </tr>
+                <tr id="curso4_row" class="disabled">
+                    <td>1</td>
+                    <td>MA420 Matemática Básica</td>
+                    <td>6</td>
+                    <td><input type="checkbox" id="curso4" disabled /> Completado</td>
+                </tr>
+                <tr id="curso5_row" class="disabled">
+                    <td>1</td>
+                    <td>CC200 Fundamentos en Programación</td>
+                    <td>6</td>
+                    <td><input type="checkbox" id="curso5" disabled /> Completado</td>
+                </tr>
+
+                <!-- CICLO 2 -->
+                <tr id="curso6_row" class="disabled">
+                    <td>2</td>
+                    <td>MA262 Cálculo I</td>
+                    <td>6</td>
+                    <td><input type="checkbox" id="curso6" disabled /> Completado</td>
+                </tr>
+                <tr id="curso7_row" class="disabled">
+                    <td>2</td>
+                    <td>HU626 Comprensión y Producción de Lenguaje II</td>
+                    <td>4</td>
+                    <td><input type="checkbox" id="curso7" disabled /> Completado</td>
+                </tr>
+                <tr id="curso8_row" class="disabled">
+                    <td>2</td>
+                    <td>HU159 Seminario de Investigación Académica I</td>
+                    <td>2</td>
+                    <td><input type="checkbox" id="curso8" disabled /> Completado</td>
+                </tr>
+                <tr id="curso9_row" class="disabled">
+                    <td>2</td>
+                    <td>AD99 Organización y Dirección de Empresas</td>
+                    <td>4</td>
+                    <td><input type="checkbox" id="curso9" disabled /> Completado</td>
+                </tr>
+                <tr id="curso10_row" class="disabled">
+                    <td>2</td>
+                    <td>CC201 Programación Orientado a Objetos</td>
+                    <td>5</td>
+                    <td><input type="checkbox" id="curso10" disabled /> Completado</td>
+                </tr>
+
+                <!-- CICLO 3 -->
+                <tr id="curso11_row" class="disabled">
+                    <td>3</td>
+                    <td>MA466 Física I</td>
+                    <td>4</td>
+                    <td><input type="checkbox" id="curso11" disabled /> Completado</td>
+                </tr>
+                <tr id="curso12_row" class="disabled">
+                    <td>3</td>
+                    <td>CA59 Contabilidad y Presupuestos</td>
+                    <td>4</td>
+                    <td><input type="checkbox" id="curso12" disabled /> Completado</td>
+                </tr>
+                <tr id="curso13_row" class="disabled">
+                    <td>3</td>
+                    <td>SI400 Diseño de Base de Datos</td>
+                    <td>4</td>
+                    <td><input type="checkbox" id="curso13" disabled /> Completado</td>
+                </tr>
+                <tr id="curso14_row" class="disabled">
+                    <td>3</td>
+                    <td>SI397 Especificación y Análisis de Requerimientos</td>
+                    <td>3</td>
+                    <td><input type="checkbox" id="curso14" disabled /> Completado</td>
+                </tr>
+                <tr id="curso15_row" class="disabled">
+                    <td>3</td>
+                    <td>MA265 Matemática Discreta</td>
+                    <td>6</td>
+                    <td><input type="checkbox" id="curso15" disabled /> Completado</td>
+                </tr>
+
+                <!-- CICLO 4 -->
+                <tr id="curso16_row" class="disabled">
+                    <td>4</td>
+                    <td>SI643 Arquitectura de Computadoras y Sistemas Operativos</td>
+                    <td>5</td>
+                    <td><input type="checkbox" id="curso16" disabled /> Completado</td>
+                </tr>
+                <tr id="curso17_row" class="disabled">
+                    <td>4</td>
+                    <td>MA462 Física II</td>
+                    <td>7</td>
+                    <td><input type="checkbox" id="curso17" disabled /> Completado</td>
+                </tr>
+                <tr id="curso18_row" class="disabled">
+                    <td>4</td>
+                    <td>SI385 IHC y Tecnologías Móviles</td>
+                    <td>4</td>
+                    <td><input type="checkbox" id="curso18" disabled /> Completado</td>
+                </tr>
+                <tr id="curso19_row" class="disabled">
+                    <td>4</td>
+                    <td>MA475 Matemática Computacional</td>
+                    <td>4</td>
+                    <td><input type="checkbox" id="curso19" disabled /> Completado</td>
+                </tr>
+
+                <!-- CICLO 5 -->
+                <tr id="curso20_row" class="disabled">
+                    <td>5</td>
+                    <td>MA642 Estadística Aplicada I</td>
+                    <td>4</td>
+                    <td><input type="checkbox" id="curso20" disabled /> Completado</td>
+                </tr>
+                <tr id="curso21_row" class="disabled">
+                    <td>5</td>
+                    <td>SI704 Arquitectura de Negocio</td>
+                    <td>4</td>
+                    <td><input type="checkbox" id="curso21" disabled /> Completado</td>
+                </tr>
+                <tr id="curso22_row" class="disabled">
+                    <td>5</td>
+                    <td>MA263 Cálculo II</td>
+                    <td>6</td>
+                    <td><input type="checkbox" id="curso22" disabled /> Completado</td>
+                </tr>
+                <tr id="curso23_row" class="disabled">
+                    <td>5</td>
+                    <td>SI393 Fundamentos de Sistemas de Información</td>
+                    <td>3</td>
+                    <td><input type="checkbox" id="curso23" disabled /> Completado</td>
+                </tr>
+                <tr id="curso24_row" class="disabled">
+                    <td>5</td>
+                    <td>Electivo</td>
+                    <td>4</td>
+                    <td><input type="checkbox" id="curso24" disabled /> Completado</td>
+                </tr>
+
+                <!-- Continue with CICLOS 6 to 10 following the same structure -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
